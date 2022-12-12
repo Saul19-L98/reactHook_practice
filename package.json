@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --config ./webpack.config.dev.js",
     "build": "webpack --config ./webpack.config.js",
     "server": "json-server --watch db.json --port 5000",
-    "dev":"concurrently \"npm run server\" \"npm start\""
+    "dev": "concurrently \"npm run server\" \"npm start\""
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.0",
     "css-loader": "^6.7.2",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
